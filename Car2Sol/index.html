@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <img class="logo" src="images/logo.png" alt="logo">
+      </div>
+      <div class="lists">
+        <ul>
+          <li><button><a href="marketplace.html">Marketplace</a></button></li>
+          <li><button><a href="record.html">Record</a></button></li>
+          <li><button><a href="contact.html">Contact</a></button></li>
+        </ul>
+      </div>
+      <div class="cta">
+        <button class="connect">Connect Wallet</button>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-text">
+        <div class="dynamicText"><span></span></div>
+        <p>your favorite cars on the blockchain</p>
+        <button class="explorebutton">Explore</button>
+      </div>
+     
+      
+    <img class = "car" id="gtr" src="images/gtr.png" alt="cars">
+    <img class="car" id="m4" src="images/m4.png" alt="cars">
+    <img class="car" id="gt3" src="images/911gt3.png" alt="cars">
+    <div class="search">
+      <div class="searchinventory">
+        <h2>Search Inventory</h2>
+        <form action="/search" method="get">
+          <label for="make">Make:</label><br>
+          <input type="text" id="make" name="make" value="Ferran"><br>
+          <label for="model">Model:</label><br>
+          <input type="text" id="model" name="model" value="e-Tron"><br>
+          <label for="priceMin">Price Min:</label><br>
+          <input type="number" id="priceMin" name="priceMin" step="0.01" value="50.00"><br>
+          <label for="priceMax">Price Max:</label><br>
+          <input type="number" id="priceMax" name="priceMax" step="0.01" value="5000.00"><br>
+          <label for="location">Location:</label><br>
+          <input type="text" id="location" name="location" value="eg Newyork"><br>
+          <input type="submit" value="Search Now">
+      </form>
+    </div>
+
+   
+
+  </div>
+
+  
+
+</html>
+
